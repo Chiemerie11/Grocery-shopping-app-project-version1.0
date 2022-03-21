@@ -1,0 +1,244 @@
+body 
+{
+    background-color: rgb(4, 4, 63);
+}
+
+body #grocery-basket 
+{
+    font-size: 55px;
+    transform: translate(370px, 60px);
+    position: static;
+    color: white;
+}
+
+#first-headers 
+{
+    position: relative;
+    top: -60px;
+}
+
+#first-headers > h2 
+{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main-container 
+{
+    position: relative;
+    top: -590px;
+}
+
+#input-container 
+{
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+#input-container input 
+{
+    padding: 10px;
+    width: 17%;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#buttons-container 
+{
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#button-add 
+{
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 18%;
+    transition: 0.2s ease-in-out;
+}
+
+#button-remove
+{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 18%;
+}
+
+#lists-container
+{
+    width: 12%;
+    margin: 50px auto;
+}
+
+#lists-container ul
+{
+    padding: 0px;
+}
+
+#lists-container ul li 
+{
+    list-style-type: none;
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+#table-container 
+{
+    color: white;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: -70px;
+}
+
+#table-container table, td, th 
+{
+    border: 1px solid white;
+    font-size: 16px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#table-container table 
+{
+    width: 15%;
+}
+
+#budget-container 
+{
+    color: white;
+    width: 15%;
+    margin-left: 20px;
+    transform: translateY(-60px);
+}
+
+#button-add:hover 
+{
+    color: orangered;
+}
+
+#budget-container h1 
+{
+    font-size: 50px;
+    transform: translateY(-20px);
+    border: 2px solid white;
+    padding: 10px;
+}
+
+#budget-container #payment-button 
+{
+    padding: 13px 13px;
+    box-sizing: border-box;
+    transform: translateY(-30px);
+    color: white;
+    background-color: orangered;
+    outline: none;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 14px;
+}
+
+i 
+{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+#hamburger-section 
+{
+    transform: translate(1050px, -575px);
+    color: white;
+    width: 16%;
+}
+
+#hamburger-section #sidebar
+{
+    background-color: rgb(34, 32, 32);
+    color: white;
+    padding: 15px;
+    text-align: left;
+    position: fixed;
+    transform: translateY(-0px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+#sidebar ul 
+{
+    list-style-type: none;
+    padding: 0px;
+}
+
+#sidebar ul li 
+{
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+    padding: 5px 20px 5px 0px;
+    font-size: 12px;
+}
+
+#sidebar li #homepage-icon 
+{
+    font-size: 15px;
+    transform: translate(55px, 3px);
+}
+
+#sidebar li #transaction-icon 
+{
+    font-size: 15px;
+    transform: translate(32px, 3px);
+}
+
+#sidebar li #other-icon 
+{
+    font-size: 15px;
+    transform: translate(40px, 0px);
+}
+
+#sidebar li #credit-icon 
+{
+    font-size: 15px;
+    transform: translate(20px, 0px);
+}
+
+#sidebar li #exit-icon 
+{
+    font-size: 15px;
+    transform: translate(100px, 3px);
+}
+
+#hamburger-section i
+{
+    transform: translate(70px, -5px);
+    font-size: 30px;
+}
+
+.show 
+{
+    display: block;
+}
+
+.hide 
+{
+    display: none;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="To-do.css">
+    <script src="https://kit.fontawesome.com/bbeb813f9d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="overall-container">
+    <div id="first-headers">
+        <i id="grocery-basket" class="fas fa-shopping-basket"></i>
+        <h2 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">GROCERY SHOPPING SECTION</h2>
+        <hr style="width: 50%; margin-bottom: 20px;">
+    </div>
+    <div id="table-container">
+        <h3 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-left: 18px;">Today's Price List</h3>
+        <table id="table">
+            <tr>
+            <th>Grocery Item</th>
+            <th>Quoted Price</th>
+            </tr>
+            <tr>
+                <td id="banana-item">Banana</td>
+                <td>$<span id="banana-price">600</span></td>
+            </tr>
+            <tr>
+                <td id="pawpaw-item">Paw-paw</td>
+                <td>$<span id="pawpaw-price">1000</span></td>
+            </tr>
+            <tr>
+                <td id="orange-item">Oranges</td>
+                <td>$<span id="orange-price">500</span></td>
+            </tr>
+            <tr>
+                <td id="egg-item">Eggs</td>
+                <td>$<span id="egg-price">3000</span></td>
+            </tr>
+            <tr>
+                <td id="meat-item">Meat</td>
+                <td>$<span id="meat-price">1000</span></td>
+            </tr>
+            <tr>
+                <td id="fish-item">Fish</td>
+                <td>$<span id="fish-price">2000</span></td>
+            </tr>
+            <tr>
+                <td id="bread-item">Bread</td>
+                <td>$<span id="bread-price">5000</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="budget-container">
+        <h3>Total Personal Budget:</h3>
+        <h1 id="budget-immediate-container" style="background-color: rgb(5, 88, 5); text-align: center;"><span style="font-size: 35px;">$</span><span id="budget-amount">10000</span></h1>
+        <button id="payment-button">Proceed to purchase
+            <i id="credit-card-icon" class="fab fa-cc-amazon-pay"></i>
+        </button>
+    </div>
+
+    <div id="hamburger-section">
+        <i class="fas fa-bars" id="hamburger-icon"></i>
+        <div id="sidebar" class="hide">
+            <ul>
+                <li>Home Page
+                    <i class="fas fa-home" id="homepage-icon"></i>
+                </li>
+                <br>
+                <li>My Transactions
+                    <i class="fas fa-coins" id="transaction-icon"></i>
+                </li>
+                <br>
+                <li>Other Sections
+                    <i class="fas fa-address-book" id="other-icon"></i>
+                </li>
+                <br>
+                <li>Request for Credit
+                    <i class="fas fa-hands-helping" id="credit-icon"></i>
+                </li>
+                <br>
+                <li>Exit
+                    <i class="fas fa-sign-out-alt" id="exit-icon"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main-container">
+        <div id="input-container">
+            <input type="text" placeholder="Enter grocery item here..." id="input">
+        </div>
+        <div id="buttons-container">
+            <button id="button-add">Add item to cart
+                <i id="shopping-cart-icon" class="fas fa-shopping-cart"></i>
+            </button>
+            <br>
+            <button id="button-remove">Remove last added item
+                <i id="delete-icon" class="fas fa-trash"></i>
+            </button>
+            
+        </div>
+        <div id="lists-container">
+            <ul id="ul">
+                
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="To-do.js"></script>
+</body>
+</html>
